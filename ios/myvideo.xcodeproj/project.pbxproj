@@ -38,7 +38,7 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		B3E8A0F80B0643C3B8F118CC /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE0E0F03BC4FADB7D63907 /* libRNVectorIcons.a */; };
-		834EAB49F9B94E878B443254 /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACDA2930074635A490C0D9 /* libRCTYouTube.a */; };
+		834EAB49F9B94E878B443254 /* libRCTmyvideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63ACDA2930074635A490C0D9 /* libRCTmyvideo.a */; };
 		C9045EF7EC644C518C319B69 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C3736FACAE64246826F8634 /* Entypo.ttf */; };
 		2BCC29C4CDB541E1A395980C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B269DAD3AD3406EABB6D459 /* EvilIcons.ttf */; };
 		3D9A9F2F6E104B71B11C48AD /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C80937FDAEA54006A432F11F /* Feather.ttf */; };
@@ -357,8 +357,8 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		A431862AB06849ACBDCFC456 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		B7EE0E0F03BC4FADB7D63907 /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		869F5AD3A4734A79B63E7977 /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; name = "RCTYouTube.xcodeproj"; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		63ACDA2930074635A490C0D9 /* libRCTYouTube.a */ = {isa = PBXFileReference; name = "libRCTYouTube.a"; path = "libRCTYouTube.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		869F5AD3A4734A79B63E7977 /* RCTmyvideo.xcodeproj */ = {isa = PBXFileReference; name = "RCTmyvideo.xcodeproj"; path = "../node_modules/react-native-youtube/RCTmyvideo.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		63ACDA2930074635A490C0D9 /* libRCTmyvideo.a */ = {isa = PBXFileReference; name = "libRCTmyvideo.a"; path = "libRCTmyvideo.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		1C3736FACAE64246826F8634 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		6B269DAD3AD3406EABB6D459 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		C80937FDAEA54006A432F11F /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -399,7 +399,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				B3E8A0F80B0643C3B8F118CC /* libRNVectorIcons.a in Frameworks */,
-				834EAB49F9B94E878B443254 /* libRCTYouTube.a in Frameworks */,
+				834EAB49F9B94E878B443254 /* libRCTmyvideo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,7 +587,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				A431862AB06849ACBDCFC456 /* RNVectorIcons.xcodeproj */,
-				869F5AD3A4734A79B63E7977 /* RCTYouTube.xcodeproj */,
+				869F5AD3A4734A79B63E7977 /* RCTmyvideo.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
